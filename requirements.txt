@@ -1,0 +1,10 @@
+ruff==0.0.230
+black==22.12.0
+isort==5.11.4
+python-dotenv==0.21.1
+slack-bolt==1.16.1
+pre-commit==2.21.0
+revChatGPT==0.3.0
+gooddata-sdk==1.2.0
+gooddata-pandas==1.2.0
+tabulate==0.9.0

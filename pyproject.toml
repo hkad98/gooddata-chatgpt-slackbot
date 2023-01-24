@@ -1,0 +1,32 @@
+[tool.ruff]
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__"
+]
+line-length = 120
+select = [
+    # pyflakes
+    "F",
+    # pycodestyle
+    "E",
+    "W",
+]
+
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+# make isort setup compatible with black
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+line_length = 120
+
+[tool.ruff.per-file-ignores]
+"use_cases/common_imports.py" = ["F401"]
+"use_cases/pure_integration.py" = ["F403", "F405"]
+"use_cases/metadata.py" = ["F403", "F405"]
+# E999 added because ruff cannot do match-case :(
+"use_cases/simple_endpoint.py" = ["F403", "F405", "E999"]
