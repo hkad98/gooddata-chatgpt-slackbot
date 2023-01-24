@@ -9,6 +9,8 @@ _This demo is only for research. Please do not use it in production, and beware 
 
 Big thanks go to [Sergey Levchenko](https://github.com/siarhei-leuchanka), and [Jan Panský](https://github.com/janpansky) who worked with me on the base PoC for this demo.
 
+If you'd like to run this demo, please follow the instructions in [INSTRUCTIONS.md](INSTRUCTIONS.md).
+
 ## Pure integration of Slack with ChatGPT
 
 You can find the pure integration of Slack with ChatGPT in the [pure_integration.py](use_cases/pure_integration.py) file.
